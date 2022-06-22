@@ -1,6 +1,7 @@
 body {
     margin: 0%;
 }
+
 .nav {
     background-color: black;
     line-height: 3;
@@ -8,7 +9,7 @@ body {
     color: white;
     text-align: center;
     font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -46,8 +47,12 @@ button {
     border: 10px solid black;
 }
 
-@media only screen and (max-width: 488px) {
-    table {
-        font-size: 10px;
+
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) {
+    .calculator {
+        width: 91%;
+        margin-left: 1.4%;
+        margin-right: 0.7%;
+        height: 620px;
     }
 }
