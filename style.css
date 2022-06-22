@@ -51,8 +51,10 @@ button {
 @media (hover: none) and (pointer: coarse) and (orientation: portrait) {
     .calculator {
         width: 91%;
-        margin-left: 1.4%;
-        margin-right: 0.7%;
         height: 620px;
+    }
+
+    .nav {
+        width: 100%;
     }
 }
