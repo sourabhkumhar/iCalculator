@@ -45,3 +45,9 @@ button {
     padding: 10px;
     border: 10px solid black;
 }
+
+@media only screen and (max-width: 488px) {
+    table {
+        font-size: 10px;
+    }
+}
