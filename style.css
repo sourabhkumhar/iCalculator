@@ -64,4 +64,8 @@ button {
         width: auto;
         font-size: 29px;
     }
+
+    .nav {
+        width: 488px;
+    }
 }
