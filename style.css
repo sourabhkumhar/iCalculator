@@ -50,10 +50,9 @@ button {
 
 @media only screen and (max-width: 488px) {
     .calculator {
-        width: 91%;
+        width: 100%;
         margin-left: 1.4%;
         margin-right: 0.7%;
-        height: 620px;
     }
 
     button {
@@ -62,6 +61,7 @@ button {
     }
 
     input {
-        font-size: 28.8px;
+        width: auto;
+        font-size: 29px;
     }
 }
