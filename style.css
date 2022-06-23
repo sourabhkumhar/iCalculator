@@ -54,6 +54,10 @@ button {
         width: 70%;
     }
 
+    table {
+        width: 130%;
+    }
+
     button {
         width: 90%;
         height: 37.5px;
